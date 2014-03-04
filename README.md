@@ -1,4 +1,4 @@
 OrangeJuice
 ===========
 
-welcome to my repository, and thank you for your opinions~~
+这里是一个学习和实践的试验田~~
