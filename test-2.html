@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>test</title>
+<style type="text/css">
+	.seperate {
+		margin: 10px 0 0;
+	}
+
+	.right {
+		float: right;
+		width: 100px;
+		height: 100px;
+		background-color: blue;
+	}
+
+	#left {
+		float: left;
+		width: 100%;
+		height: 100px;
+		margin-right: -100px;
+		background-color: red;
+	}
+
+	#left-2 {
+		float: left;
+		width: calc(100% - 100px);
+		height: 100px;
+		background-color: red;
+	}
+
+	.content {
+		width: 100%;
+		height: 100px;
+		margin-right: 100px;
+		background-color: gray;
+	}
+
+	.clearfix {
+		clear: both;
+	}
+
+	.left-block {
+		float: left;
+		width: 50px;
+		height: 50px;
+		background-color: yellow;
+		border: 1px solid black;
+	}
+</style>
+</head>
+<body>
+	<div class="seperate clearfix">
+		<div id="left">
+			<div class="content clearfix">
+				<div class="left-block">1-1</div>
+				<div class="left-block">1-2</div>
+				<div class="left-block">1-3</div>
+				<div class="left-block">1-4</div>
+				<div class="left-block">1-5</div>
+				<div class="left-block">1-6</div>
+				<div class="left-block">1-1</div>
+				<div class="left-block">1-2</div>
+				<div class="left-block">1-3</div>
+				<div class="left-block">1-4</div>
+				<div class="left-block">1-5</div>
+				<div class="left-block">1-6</div>
+				<div class="left-block">1-1</div>
+				<div class="left-block">1-2</div>
+				<div class="left-block">1-3</div>
+				<div class="left-block">1-4</div>
+				<div class="left-block">1-5</div>
+				<div class="left-block">1-6</div>
+				<div class="left-block">1-1</div>
+				<div class="left-block">1-2</div>
+				<div class="left-block">1-3</div>
+				<div class="left-block">1-4</div>
+				<div class="left-block">1-5</div>
+				<div class="left-block">1-6</div>
+				<div class="left-block">1-1</div>
+				<div class="left-block">1-2</div>
+				<div class="left-block">1-3</div>
+				<div class="left-block">1-4</div>
+				<div class="left-block">1-5</div>
+				<div class="left-block">1-6</div>
+			</div>
+		</div>
+		<div class="right">B</div>
+	</div>
+
+	<div class="seperate clearfix">
+		<div id="left-2">
+			<div class="left-block">2-1</div>
+			<div class="left-block">2-2</div>
+			<div class="left-block">2-3</div>
+			<div class="left-block">2-4</div>
+			<div class="left-block">2-5</div>
+			<div class="left-block">2-6</div>
+			<div class="left-block">2-1</div>
+			<div class="left-block">2-2</div>
+			<div class="left-block">2-3</div>
+			<div class="left-block">2-4</div>
+			<div class="left-block">2-5</div>
+			<div class="left-block">2-6</div>
+			<div class="left-block">2-1</div>
+			<div class="left-block">2-2</div>
+			<div class="left-block">2-3</div>
+			<div class="left-block">2-4</div>
+			<div class="left-block">2-5</div>
+			<div class="left-block">2-6</div>
+			<div class="left-block">2-1</div>
+			<div class="left-block">2-2</div>
+			<div class="left-block">2-3</div>
+			<div class="left-block">2-4</div>
+			<div class="left-block">2-5</div>
+			<div class="left-block">2-6</div>
+			<div class="left-block">2-1</div>
+			<div class="left-block">2-2</div>
+			<div class="left-block">2-3</div>
+			<div class="left-block">2-4</div>
+			<div class="left-block">2-5</div>
+			<div class="left-block">2-6</div>
+		</div>
+		<div class="right"></div>
+	</div>
+	<script type="text/javascript">
+	</script>
+</body>
+</html>
